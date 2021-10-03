@@ -1,0 +1,96 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* CSS specificity rule
+Sometimes there are overlaps (like between * and h1 in this example, then CSS will follow the specific rule */
+
+h1 {
+    color: red;
+    font-family: 'Bonheur Royale', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h2 {
+    border-left: saddlebrown;
+    font-size: xx-large;
+}
+
+#landing img {
+    width: 600px
+}
+
+#blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+
+/*
+selector {
+    css-attributes1: value;
+    css-attributes2: value;
+    css-attributes3:value;
+}
+ */
+
+#landing {
+    height: 260vh;
+    /* vh = viewpoint height = screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.tools {
+    padding: 25px;
+    height: 170px;
+    border: 3px solid #e71a1a;
+    margin: 20px;
+    width: 50%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.contact-tools {
+    padding: 15px;
+    height: 170px;
+    margin: 20px;
+    width: 50%;
+}
+
+.white-text {
+    color: white
+}
+
+html {
+    scroll-behavior: smooth;
+}
